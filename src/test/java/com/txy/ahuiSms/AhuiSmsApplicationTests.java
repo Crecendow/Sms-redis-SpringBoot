@@ -23,7 +23,7 @@ class AhuiSmsApplicationTests {
     @Test
     void contextLoads() throws Exception {
         // 连接阿里云
-        DefaultProfile profile = DefaultProfile.getProfile("cn-hangzhou", "LTAI4Fy39w2k1Da2atVpew3z", "MYTMd0rPLVy3OsJsfo5FmvAMpQrGGt");
+        DefaultProfile profile = DefaultProfile.getProfile("cn-hangzhou", "", "");
         IAcsClient client = new DefaultAcsClient(profile);
 
         //构建请求
